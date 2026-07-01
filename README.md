@@ -108,10 +108,3 @@ make validate
 ```
 
 Esse comando valida sintaxe Python e executa a analise com um fixture minimo em `/tmp/service-discovery-validation`, sem deixar resultados no repositorio.
-
-## Documentacao
-
-- [docs/checkpoint4/RELATORIO_FINAL.md](docs/checkpoint4/RELATORIO_FINAL.md)
-- [docs/checkpoint4/CHECKLIST_REPRODUTIBILIDADE.md](docs/checkpoint4/CHECKLIST_REPRODUTIBILIDADE.md)
-
-Depois de rodar `make discovery-analysis`, consulte tambem `docs/checkpoint4/generated/README.md` para tabelas e links dos graficos gerados.
