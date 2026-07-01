@@ -1,0 +1,5 @@
+load_profile,winner_mode,winner_latency_p95_ms,mode_a_latency_p95_ms,mode_a_delta_vs_best_ms,mode_b_latency_p95_ms,mode_b_delta_vs_best_ms,mode_c_latency_p95_ms,mode_c_delta_vs_best_ms
+baixa,mode_a,26.534,26.534,0.0,125648.926,125622.392,26.574,0.04
+moderada,mode_a,24.707,24.707,0.0,199233.654,199208.947,207341.0,207316.293
+alta,mode_a,33.101,33.101,0.0,234326.385,234293.284,241105.793,241072.692
+sobrecarga,mode_a,45476.341,45476.341,0.0,257253.313,211776.972,261760.912,216284.571

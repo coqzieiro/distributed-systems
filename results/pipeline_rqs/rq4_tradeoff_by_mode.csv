@@ -1,0 +1,5 @@
+load_profile,winner_mode,winner_tradeoff_score,mode_a_tradeoff_score,mode_a_throughput_messages_s,mode_a_latency_p95_ms,mode_a_backlog,mode_a_cpu_mean_second_half,mode_b_tradeoff_score,mode_b_throughput_messages_s,mode_b_latency_p95_ms,mode_b_backlog,mode_b_cpu_mean_second_half,mode_c_tradeoff_score,mode_c_throughput_messages_s,mode_c_latency_p95_ms,mode_c_backlog,mode_c_cpu_mean_second_half
+baixa,mode_a,0.7578,0.7578,19.54,26.534,0.0,48.194,0.25,14.0,125648.926,2445.2,25.018,0.7491,19.52,26.574,0.0,48.936
+moderada,mode_a,0.75,0.75,31.16,24.707,0.0,71.877,0.2908,13.64,199233.654,6104.0,24.922,0.25,7.68,207341.0,6354.0,15.379
+alta,mode_a,0.75,0.75,42.52,33.101,0.4,94.798,0.2821,14.0,234326.385,9742.6,24.234,0.25,7.6,241105.793,10041.8,15.256
+sobrecarga,mode_a,0.75,0.75,51.7,45476.341,2604.2,98.781,0.2671,14.0,257253.313,14402.2,24.647,0.25,7.58,261760.912,14600.4,15.065

@@ -1,0 +1,29 @@
+# Override para execução local: apenas infra (kafka + influxdb) com portas
+# expostas no host. Os serviços Python (api, producer, consumer) rodam
+# diretamente na máquina via `make start-local`.
+#
+# Uso: docker compose -f docker-compose.yml -f docker-compose.local.yml up -d kafka influxdb
+
+services:
+  kafka:
+    environment:
+      # Anuncia o broker como localhost para que clientes fora do Docker consigam conectar
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+    ports:
+      - "9092:9092"
+
+  influxdb:
+    ports:
+      - "8086:8086"
+
+  # Serviços que rodam localmente — desativados no compose
+  api:
+    profiles: ["docker-only"]
+  producer:
+    profiles: ["docker-only"]
+  consumer:
+    profiles: ["docker-only"]
+  prometheus:
+    profiles: ["docker-only"]
+  grafana:
+    profiles: ["docker-only"]

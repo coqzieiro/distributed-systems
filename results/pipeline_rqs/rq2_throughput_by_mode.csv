@@ -1,0 +1,5 @@
+load_profile,winner_mode,winner_throughput_messages_s,mode_a_throughput_messages_s,mode_a_gap_to_best_messages_s,mode_b_throughput_messages_s,mode_b_gap_to_best_messages_s,mode_c_throughput_messages_s,mode_c_gap_to_best_messages_s
+baixa,mode_a,19.54,19.54,0.0,14.0,5.54,19.52,0.02
+moderada,mode_a,31.16,31.16,0.0,13.64,17.52,7.68,23.48
+alta,mode_a,42.52,42.52,0.0,14.0,28.52,7.6,34.92
+sobrecarga,mode_a,51.7,51.7,0.0,14.0,37.7,7.58,44.12

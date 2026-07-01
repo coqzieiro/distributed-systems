@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+.DS_Store
+*.log
+data/raw/*.csv
+data/processed/*.json
+docs/checkpoint4/generated/
